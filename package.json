@@ -1,0 +1,20 @@
+{
+  "name": "landingpage-saas",
+  "version": "1.0.0",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tailwindcss -i ./src/input.css -o ./public/style.css --watch"
+  },
+  "keywords": [],
+  "author": "QuentinPetton",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "eslint": "^9.10.0"
+  },
+  "devDependencies": {
+    "tailwindcss": "^3.4.11"
+  }
+}
